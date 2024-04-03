@@ -1,23 +1,6 @@
 
 // script para quando a pertar o botao ver mais aparecer novas vagas mode de celular
 
-// var btn = document.querySelector('#visibily');
-// var container =document.querySelector('.vermais');
-
-
-// btn.addEventListener('click',function(){
-
-//     if(container.style.display === 'block'){
-//         container.style.display = 'none';
-//     }
-//     else {
-//         container.style.display = 'block';
-//     }
-// });
-
-
-
-
 function esconder(el){
     document.getElementById(el).style.display = 'none';
 }
@@ -63,7 +46,7 @@ function abrirModal(){
 
 function myFunction(){
     const list = document.getElementById("vaga-remove")
-    const listt = document.getElementById("vaga-remove2")
+    
    
     while(list.hasChildNodes()){
         list.removeChild(list.firstChild);
